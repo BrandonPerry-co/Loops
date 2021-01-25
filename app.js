@@ -66,7 +66,7 @@
 
  */
 // Create a function that returns true if the value of birthDate is before Jan 1, 1990.
-/********************************************************
+/********************************************************/
         function canVote(birthDate) { 
             return person.birthDate <= Jan 1, 1990; 
         } 
@@ -76,12 +76,12 @@
             document.write(filtered); 
         } 
         console'log(func());
- */
+
 // Use .filter() to filter the persons array and console.log only people that were born before Jan 1, 1990.
-/*********************************************************
+/*********************************************************/
         person.filter(oldFolks => oldFolks.birthDate <= 'Jan 1,1990')
         console.log;
- */
+
 // BONUS - Create a function that returns true if the date passed to it is >= 21 years in the past.
 // BONUS - .filter() out the people in the array who are younger than 21.
 
